@@ -1,10 +1,10 @@
 from src import reproj
 
+import sys
+
 
 if __name__ == "__main__":
-    img_path = (
-        "/home/yzhan/gits/ensat_reproj/test/AHI-true_color_ahi_202109020200_loopy.png"
-    )
+    img_path = sys.argv[1]
     reproj_img_path = img_path.replace(".png", "_reproj.png")
 
     img_data = reproj.load_ensat_image(img_path)
