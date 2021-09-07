@@ -1,0 +1,8 @@
+WhiteIsland_500m:
+  projection:
+    EPSG:4326
+  resolution: [0.005, 0.005]
+  area_extent:
+    lower_left_xy: [175, -39]
+    upper_right_xy: [178, -36]
+    units: degrees
