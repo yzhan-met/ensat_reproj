@@ -1,7 +1,21 @@
+# WhiteIsland_500m:
+#   projection:
+#     EPSG:4326
+#   resolution: [0.005, 0.005]
+#   area_extent:
+#     lower_left_xy: [175, -39]
+#     upper_right_xy: [178, -36]
+#     units: degrees
+
 WhiteIsland_500m:
   projection:
-    EPSG:4326
-  resolution: [0.005, 0.005]
+    proj: merc
+    datum: WGS84
+    a: 6378137
+    b: 6378137 
+    lat_ts: 0.0
+    lon_0: 0.0
+  resolution: [500, 500]
   area_extent:
     lower_left_xy: [175, -39]
     upper_right_xy: [178, -36]
